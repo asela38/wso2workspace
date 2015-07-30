@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="LoopProxy" transports="http https" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <log/>
+            <class name="com.tools.InfiniteLoopMediator"/>
+            <drop/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+</proxy>

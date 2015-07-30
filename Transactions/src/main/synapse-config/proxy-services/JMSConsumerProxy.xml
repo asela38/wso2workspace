@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="JMSConsumerProxy" transports="jms" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <header name="Action" scope="default" value="urn:checkBalance"/>
+            <send>
+                <endpoint>
+                    <address uri="http://localhost:9764/demoapp/LogService" format="soap11"/>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence>
+            <drop/>
+        </outSequence>
+        <faultSequence/>
+    </target>
+    <parameter name="transport.jms.ContentType">
+        <rules>
+            <jmsProperty>contentType</jmsProperty>
+            <default>application/xml</default>
+        </rules>
+    </parameter>
+</proxy>

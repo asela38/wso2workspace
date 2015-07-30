@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="HelloWorldProxyServices" groupId="com.example.HelloWorldProxyServices.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/HelloWorldProxyServices.xml</file>
+    </artifact>
+    <artifact name="ff" groupId="com.example.HelloWorldProxyServices.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/ff.xml</file>
+    </artifact>
+    <artifact name="Test" groupId="com.example.HelloWorldProxyServices.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/Test.xml</file>
+    </artifact>
+</artifacts>

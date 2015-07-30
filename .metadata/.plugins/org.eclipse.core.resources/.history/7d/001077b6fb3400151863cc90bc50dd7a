@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esb:EsbDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb">
+  <server type="TASK">
+    <children xsi:type="esb:Task" taskName="WRTask" count="4" interval="1">
+      <taskProperties propertyName="soapAction" propertyValue="trigger"/>
+      <taskProperties propertyName="message" propertyValue="&lt;trigger xmlns=&quot;http://ws.apache.org/ns/synapse&quot;/>" propertyType="XML"/>
+      <taskProperties propertyName="proxyName" propertyValue="HelloWorldProxy"/>
+      <taskProperties propertyName="to" propertyValue="proxy"/>
+      <taskProperties propertyName="format" propertyValue="soap11"/>
+    </children>
+  </server>
+</esb:EsbDiagram>

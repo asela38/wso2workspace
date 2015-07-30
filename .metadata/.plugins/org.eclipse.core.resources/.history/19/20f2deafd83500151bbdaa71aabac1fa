@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_iub8sDXYEeWRUvaoISuBAA" type="Esb" name="messageStore_PlaceHolderStore.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_ivynkDXYEeWRUvaoISuBAA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ivynlTXYEeWRUvaoISuBAA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_o1fagDXYEeWRUvaoISuBAA" type="3715">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_o1fagTXYEeWRUvaoISuBAA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_o1fagjXYEeWRUvaoISuBAA" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_o1fagzXYEeWRUvaoISuBAA"/>
+        <element xmi:type="esb:MessageStore" href="messageStore_PlaceHolderStore.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o1fahDXYEeWRUvaoISuBAA" width="75" height="75"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_ivynkTXYEeWRUvaoISuBAA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ivynkjXYEeWRUvaoISuBAA" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_ivynkzXYEeWRUvaoISuBAA"/>
+    <element xmi:type="esb:EsbServer" href="messageStore_PlaceHolderStore.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ivynlDXYEeWRUvaoISuBAA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_iub8sTXYEeWRUvaoISuBAA"/>
+  <element xmi:type="esb:EsbDiagram" href="messageStore_PlaceHolderStore.esb#/"/>
+</notation:Diagram>

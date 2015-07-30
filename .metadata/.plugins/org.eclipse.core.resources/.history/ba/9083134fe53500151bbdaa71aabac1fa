@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_QQOpEDXlEeWRUvaoISuBAA" type="Esb" name="messageProcessor_PlaceOrderMessageProcessor.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_QRqMcDXlEeWRUvaoISuBAA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QRqzgDXlEeWRUvaoISuBAA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_QT_HsDXlEeWRUvaoISuBAA" type="3701">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_QT_HsTXlEeWRUvaoISuBAA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_QT_HsjXlEeWRUvaoISuBAA" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_QT_HszXlEeWRUvaoISuBAA"/>
+        <element xmi:type="esb:MessageProcessor" href="messageProcessor_PlaceOrderMessageProcessor.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QT_HtDXlEeWRUvaoISuBAA" width="75" height="75"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_QRqMcTXlEeWRUvaoISuBAA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_QRqMcjXlEeWRUvaoISuBAA" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_QRqMczXlEeWRUvaoISuBAA"/>
+    <element xmi:type="esb:EsbServer" href="messageProcessor_PlaceOrderMessageProcessor.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QRqMdDXlEeWRUvaoISuBAA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_QQOpETXlEeWRUvaoISuBAA"/>
+  <element xmi:type="esb:EsbDiagram" href="messageProcessor_PlaceOrderMessageProcessor.esb#/"/>
+</notation:Diagram>

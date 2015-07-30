@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messageProcessor xmlns="http://ws.apache.org/ns/synapse" class="org.apache.synapse.message.processor.impl.forwarder.ScheduledMessageForwardingProcessor" name="PlaceOrder1000PlusMessageProcessor" targetEndpoint="PlaceOrderEndPoint1000Plus" messageStore="PlaceHolder1000PlusStore">
+    <parameter name="max.delivery.attempts">-1</parameter>
+    <parameter name="client.retry.interval">1000</parameter>
+    <parameter name="interval">1000</parameter>
+    <parameter name="is.active">true</parameter>
+</messageProcessor>

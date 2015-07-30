@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api xmlns="http://ws.apache.org/ns/synapse" name="weatherReport" context="/weather">
+    <resource methods="GET" uri-template="/all?city={city}">
+        <inSequence>
+            <call>
+                <endpoint>
+                    <http method="get" uri-template="http://api.openweathermap.org/data/2.5/weather?q={uri.var.city}"/>
+                </endpoint>
+            </call>
+            <property name="current" expression="json-eval($)" scope="default" type="STRING"/>
+            <call>
+                <endpoint>
+                    <http method="get" uri-template="http://api.openweathermap.org/data/2.5/forecast?q={uri.var.city}"/>
+                </endpoint>
+            </call>
+            <property name="forcast" expression="json-eval($)" scope="default" type="STRING"/>
+            <payloadFactory media-type="json">
+                <format>
+					{
+					"weather":{
+					"current":$1,
+					"forcast":$2
+					}
+					}
+				</format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('current')"/>
+                    <arg evaluator="xml" expression="get-property('forcast')"/>
+                </args>
+            </payloadFactory>
+            <property name="messageType" value="application/xml" scope="axis2" type="STRING"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

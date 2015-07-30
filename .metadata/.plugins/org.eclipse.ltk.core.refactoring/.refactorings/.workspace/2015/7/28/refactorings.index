@@ -1,0 +1,5 @@
+1436250781596	Delete resource 'First'
+1436253655910	Delete resource 'MyApp'
+1436253667632	Delete resource 'MyESBConfig/MyApp'
+1436253702055	Delete resource 'MyA'
+1436345230661	Delete resource 'MyESBConfig/src/main/synapse-config/proxy-services/SplitAggregateProxy.xml'

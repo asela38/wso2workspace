@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xmlns="http://ws.apache.org/ns/synapse" name="MyTemplate">
+    <parameter name="consumerKey"/>
+    <sequence/>
+</template>

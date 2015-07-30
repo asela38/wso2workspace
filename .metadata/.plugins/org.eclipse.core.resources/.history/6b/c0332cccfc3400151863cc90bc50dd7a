@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="WeatherReport_1" transports="jms" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <log level="full"/>
+            <property name="uri.var.city" expression="//city" scope="default" type="STRING"/>
+            <log level="headers">
+                <property name="uri.var.city" expression="get-property('uri.var.city')"/>
+            </log>
+            <call>
+                <endpoint>
+                    <http method="get" uri-template="http://api.openweathermap.org/data/2.5/weather?q={uri.var.city}"/>
+                </endpoint>
+            </call>
+            <log level="full">
+                <property name="dt" expression="$body/jsonObject/dt"/>
+                <property name="city" expression="$body/jsonObject/name"/>
+                <property name="temp" expression="$body/jsonObject/main/temp"/>
+            </log>
+            <dbreport>
+                <connection>
+                    <pool>
+                        <password>root</password>
+                        <user>root</user>
+                        <url>jdbc:mysql://localhost:3306/weather</url>
+                        <driver>com.mysql.jdbc.Driver</driver>
+                    </pool>
+                </connection>
+                <statement>
+                    <sql>INSERT INTO weather_details (time, city, temperature) VALUES(FROM_UNIXTIME(?),?,?)</sql>
+                    <parameter expression="$body/jsonObject/dt" type="NUMERIC"/>
+                    <parameter expression="$body/jsonObject/name" type="VARCHAR"/>
+                    <parameter expression="$body/jsonObject/main/temp" type="DECIMAL"/>
+                </statement>
+            </dbreport>
+            <log level="full"/>
+            <drop/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+</proxy>

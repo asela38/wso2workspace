@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="SimpleQuoteRest" groupId="com.example.SimpleQuoteRestEsbConfig.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/SimpleQuoteRest.xml</file>
+    </artifact>
+    <artifact name="quoteErrorSequence" groupId="com.example.SimpleQuoteRestEsbConfig.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/quoteErrorSequence.xml</file>
+    </artifact>
+    <artifact name="getQuote" groupId="com.example.SimpleQuoteRestEsbConfig.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/getQuote.xml</file>
+    </artifact>
+    <artifact name="getSimpleQuote" groupId="com.example.SimpleQuoteRestEsbConfig.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/getSimpleQuote.xml</file>
+    </artifact>
+</artifacts>

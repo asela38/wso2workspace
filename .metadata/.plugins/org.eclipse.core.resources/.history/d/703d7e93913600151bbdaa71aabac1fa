@@ -1,0 +1,6 @@
+<messageStore xmlns="http://ws.apache.org/ns/synapse" name="PlaceHolder1000PlusStore" class="org.apache.synapse.message.store.impl.jms.JmsStore">
+<parameter name="java.naming.factory.initial">s</parameter>
+<parameter name="store.jms.cache.connection">false</parameter>
+<parameter name="java.naming.provider.url">http://www.oo.com</parameter>
+<parameter name="store.jms.ConsumerReceiveTimeOut">0</parameter>
+</messageStore>

@@ -1,0 +1,20 @@
+package com.tools;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.synapse.MessageContext; 
+import org.apache.synapse.mediators.AbstractMediator;
+
+public class GlobalInstanceMediator extends AbstractMediator { 
+	
+	public Map<String, MessageContext> map = new HashMap<>();
+
+	public boolean mediate(MessageContext context) { 
+		
+		while(true) {
+			System.out.println("Looping");
+		}
+		
+	}
+}

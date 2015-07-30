@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esb:EsbDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb">
+  <server type="TASK">
+    <children xsi:type="esb:Task" taskName="GreetingsTask" count="4" interval="1">
+      <taskProperties propertyName="to" propertyValue="proxy"/>
+      <taskProperties propertyName="soapAction" propertyValue="urn:greet"/>
+      <taskProperties propertyName="proxyName" propertyValue="HelloWorldProxy"/>
+      <taskProperties propertyName="format" propertyValue="soap11"/>
+      <taskProperties propertyName="message" propertyValue="&lt;typ:greet xmlns:typ=&quot;http://www.wso2.org/types&quot;>&#xA;&#x9;&#x9;&#x9;&lt;name>Hello1&lt;/name>&#xA;&#x9;&#x9;&lt;/typ:greet>" propertyType="XML"/>
+    </children>
+  </server>
+</esb:EsbDiagram>

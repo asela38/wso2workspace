@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esb:EsbDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb">
+  <server type="LOCAL_ENTRY">
+    <children xsi:type="esb:LocalEntry" entryName="smooks-config" localEntryType="In-lined XML Entry" valueXML="&lt;smooks-resource-list xmlns=&quot;http://www.milyn.org/xsd/smooks-1.1.xsd&quot; xmlns:csv=&quot;http://www.milyn.org/xsd/smooks/csv-1.2.xsd&quot;>&#xA;        &lt;resource-config selector=&quot;org.xml.sax.driver&quot;>&#xA;            &lt;resource>org.milyn.csv.CSVReader&lt;/resource>&#xA;            &lt;param name=&quot;fields&quot;>symbol,price,quantity&lt;/param>&#xA;            &lt;param name=&quot;rootElementName&quot;>order&lt;/param>&#xA;            &lt;param name=&quot;recordElementName&quot;>order&lt;/param>&#xA;        &lt;/resource-config>&#xA;    &lt;/smooks-resource-list>"/>
+  </server>
+</esb:EsbDiagram>

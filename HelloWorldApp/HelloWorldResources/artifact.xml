@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="HelloWorldServiceEP-Dev" groupId="com.example.HelloWorldResources.resource" version="1.0.0" type="registry/resource" serverRole="GovernanceRegistry">
+        <item>
+            <file>Development/HelloWorldServiceEP.xml</file>
+            <path>/_system/governance/branches/dev/endpoints/HelloWorld</path>
+            <mediaType>application/vnd.wso2.esb.endpoint</mediaType>
+        </item>
+    </artifact>
+    <artifact name="HelloWorldServiceEP-QA" groupId="com.example.HelloWorldResources.resource" version="1.0.0" type="registry/resource" serverRole="GovernanceRegistry">
+        <item>
+            <file>QA/HelloWorldServiceEP.xml</file>
+            <path>/_system/governance/branches/qa/endpoints/HelloWorld</path>
+            <mediaType>application/vnd.wso2.esb.endpoint</mediaType>
+        </item>
+    </artifact>
+</artifacts>

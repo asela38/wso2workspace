@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_S4kAIDTbEeWwbbUyKtTIgg" type="Esb" name="sequence_quoteErrorSequence.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_S84fcDTbEeWwbbUyKtTIgg" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_S84fdTTbEeWwbbUyKtTIgg" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_TCTK8DTbEeWwbbUyKtTIgg" type="3614">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_TCTK8TTbEeWwbbUyKtTIgg"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_TCTK8jTbEeWwbbUyKtTIgg" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_TCTK8zTbEeWwbbUyKtTIgg"/>
+        <element xmi:type="esb:Sequences" href="sequence_quoteErrorSequence.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TCTK9DTbEeWwbbUyKtTIgg" x="-1" y="-1" width="333" height="143"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_S84fcTTbEeWwbbUyKtTIgg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_S84fcjTbEeWwbbUyKtTIgg" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_S84fczTbEeWwbbUyKtTIgg"/>
+    <element xmi:type="esb:EsbServer" href="sequence_quoteErrorSequence.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S84fdDTbEeWwbbUyKtTIgg"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_S4kAITTbEeWwbbUyKtTIgg"/>
+  <element xmi:type="esb:EsbDiagram" href="sequence_quoteErrorSequence.esb#/"/>
+</notation:Diagram>

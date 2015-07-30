@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SimpleQuoteRestEsbConfig/src/main/synapse-config/sequences/getQuote.xml&apos; to &apos;getFullQuote.xml&apos;" description="Rename resource &apos;getQuote.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/synapse-config/sequences/getQuote.xml" name="getFullQuote.xml" stamp="1438058577250" updateReferences="true"/>
+</session>

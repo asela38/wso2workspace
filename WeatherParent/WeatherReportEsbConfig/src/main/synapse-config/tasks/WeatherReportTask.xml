@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task xmlns="http://ws.apache.org/ns/synapse" name="WeatherReportTask" class="org.apache.synapse.startup.tasks.MessageInjector" group="synapse.simple.quartz">
+    <trigger cron="0 0/1 * 1/1 * ? *"/>
+    <property xmlns:task="http://www.wso2.org/products/wso2commons/tasks" name="to" value="proxy"/>
+    <property xmlns:task="http://www.wso2.org/products/wso2commons/tasks" name="proxyName" value="WeatherReport"/>
+    <property xmlns:task="http://www.wso2.org/products/wso2commons/tasks" name="soapAction" value="w:trigger"/>
+    <property xmlns:task="http://www.wso2.org/products/wso2commons/tasks" name="injectTo" value="proxy"/>
+    <property xmlns:task="http://www.wso2.org/products/wso2commons/tasks" name="message">
+        <w:trigger xmlns:w="http://www.wso2.org/weather">
+            <w:city>Chicago</w:city>
+        </w:trigger>
+    </property>
+    <property xmlns:task="http://www.wso2.org/products/wso2commons/tasks" name="format" value="soap11"/>
+</task>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api xmlns="http://ws.apache.org/ns/synapse" name="transactions" context="/transactions">
+    <resource methods="POST" uri-template="/insert/">
+        <inSequence>
+            <log level="full"/>
+            <dbreport>
+                <connection>
+                    <pool>
+                        <password>root</password>
+                        <user>root</user>
+                        <url>jdbc:mysql://localhost:3306/transactions</url>
+                        <driver>com.mysql.jdbc.Driver</driver>
+                    </pool>
+                </connection>
+                <statement>
+                    <sql>insert into messages values(?,?)</sql>
+                    <parameter expression="//transID" type="VARCHAR"/>
+                    <parameter expression="//message" type="VARCHAR"/>
+                </statement>
+            </dbreport>
+            <log level="full"/>
+            <payloadFactory media-type="xml">
+                <format>
+                    <status xmlns="">OK</status>
+                </format>
+                <args/>
+            </payloadFactory>
+            <log level="full"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence>
+            <payloadFactory media-type="xml">
+                <format>
+                    <status xmlns="">ERROR</status>
+                </format>
+                <args/>
+            </payloadFactory>
+            <log level="full"/>
+            <respond/>
+        </faultSequence>
+    </resource>
+</api>

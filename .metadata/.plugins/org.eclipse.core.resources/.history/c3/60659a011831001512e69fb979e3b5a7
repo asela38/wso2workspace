@@ -1,0 +1,15 @@
+package com.tools;
+
+import org.apache.synapse.MessageContext; 
+import org.apache.synapse.mediators.AbstractMediator;
+
+public class InfiniteLoopMediator extends AbstractMediator { 
+
+	public boolean mediate(MessageContext context) { 
+
+		while(true) {
+			
+		}
+		
+	}
+}

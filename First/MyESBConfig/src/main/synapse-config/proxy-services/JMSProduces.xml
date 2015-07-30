@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="JMSProduces" transports="http https jms" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <property name="OUT_ONLY" value="true" scope="default" type="STRING"/>
+            <log level="full"/>
+            <property name="FORCE_SC_ACCEPTED​" value="true" scope="axis2" type="STRING"/>
+            <log level="full"/>
+            <send/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+</proxy>

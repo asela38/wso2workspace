@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_AOW0sDTkEeWTst1BP5cayw" type="Esb" name="sequence_getMarketActivity.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_AQEE4DTkEeWTst1BP5cayw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AQEE5TTkEeWTst1BP5cayw" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_ARY6kDTkEeWTst1BP5cayw" type="3614">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_ARY6kTTkEeWTst1BP5cayw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_ARY6kjTkEeWTst1BP5cayw" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_ARY6kzTkEeWTst1BP5cayw"/>
+        <element xmi:type="esb:Sequences" href="sequence_getMarketActivity.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ARY6lDTkEeWTst1BP5cayw" x="-1" y="-1" width="333" height="143"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_AQEE4TTkEeWTst1BP5cayw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_AQEE4jTkEeWTst1BP5cayw" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_AQEE4zTkEeWTst1BP5cayw"/>
+    <element xmi:type="esb:EsbServer" href="sequence_getMarketActivity.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AQEE5DTkEeWTst1BP5cayw"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_AOW0sTTkEeWTst1BP5cayw"/>
+  <element xmi:type="esb:EsbDiagram" href="sequence_getMarketActivity.esb#/"/>
+</notation:Diagram>

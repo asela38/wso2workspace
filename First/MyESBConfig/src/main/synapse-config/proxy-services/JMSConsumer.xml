@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="JMSConsumer" transports="jms" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <log level="full"/>
+            <send>
+                <endpoint>
+                    <address uri="https://localhost:8243/services/SimpleProxy"/>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence>
+            <log level="full" separator=" -()-">
+                <property name="BeforDrop" value="test"/>
+            </log>
+            <drop/>
+        </outSequence>
+        <faultSequence/>
+    </target>
+    <parameter name="transport.jms.ContentType">
+        <rules>
+            <jmsProperty>contentType</jmsProperty>
+            <default>application/xml</default>
+        </rules>
+    </parameter>
+    <parameter name="transport.jms.Destination">MyJMSQueue</parameter>
+</proxy>

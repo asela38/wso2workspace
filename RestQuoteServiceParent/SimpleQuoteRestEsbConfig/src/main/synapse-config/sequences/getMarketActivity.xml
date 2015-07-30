@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence xmlns="http://ws.apache.org/ns/synapse" name="getMarketActivity">
+    <payloadFactory media-type="xml">
+        <format>
+            <ser:getMarketActivity xmlns:ser="http://services.samples" xmlns:xsd="http://services.samples/xsd">
+                <ser:request>
+                    <xsd:symbols>wso2</xsd:symbols>
+                </ser:request>
+            </ser:getMarketActivity>
+        </format>
+        <args>
+            <arg evaluator="xml" expression="get-property('uri.var.symbol')"/>
+        </args>
+    </payloadFactory>
+    <header name="Action" scope="default" value="ser:getMarketActivity"/>
+</sequence>

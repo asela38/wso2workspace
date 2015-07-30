@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="all" groupId="com.example.WeatherEsbConfig.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/all.xml</file>
+    </artifact>
+    <artifact name="LogProxy" groupId="com.example.WeatherEsbConfig.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/LogProxy.xml</file>
+    </artifact>
+    <artifact name="allK" groupId="com.example.WeatherEsbConfig.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/allK.xml</file>
+    </artifact>
+    <artifact name="allV" groupId="com.example.WeatherEsbConfig.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/allV.xml</file>
+    </artifact>
+    <artifact name="WeatherProxy" groupId="com.example.WeatherEsbConfig.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/WeatherProxy.xml</file>
+    </artifact>
+</artifacts>

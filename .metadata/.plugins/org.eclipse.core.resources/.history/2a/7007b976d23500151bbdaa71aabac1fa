@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_tsr3IDXREeWRUvaoISuBAA" type="Esb" name="proxy_PlaceOrderProxy.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_tvxnYDXREeWRUvaoISuBAA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tvxnZTXREeWRUvaoISuBAA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_t1X5EDXREeWRUvaoISuBAA" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_t1YgIDXREeWRUvaoISuBAA" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_t1X5ETXREeWRUvaoISuBAA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_t1X5EjXREeWRUvaoISuBAA" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_t1X5EzXREeWRUvaoISuBAA"/>
+        <element xmi:type="esb:ProxyService" href="proxy_PlaceOrderProxy.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t1X5FDXREeWRUvaoISuBAA" width="300" height="400"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_tvxnYTXREeWRUvaoISuBAA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_tvxnYjXREeWRUvaoISuBAA" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_tvxnYzXREeWRUvaoISuBAA"/>
+    <element xmi:type="esb:EsbServer" href="proxy_PlaceOrderProxy.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tvxnZDXREeWRUvaoISuBAA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_tsr3ITXREeWRUvaoISuBAA"/>
+  <element xmi:type="esb:EsbDiagram" href="proxy_PlaceOrderProxy.esb#/"/>
+</notation:Diagram>

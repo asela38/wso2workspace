@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="TwitterProxy" transports="https http" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <log level="full"/>
+            <twitter.init>
+                <consumerKey>TLn8qzFIZ8VDjBP5giGFfK9Bi</consumerKey>
+                <consumerSecret>23uiBWiuKningEKGvB3BAuBfEGvn3n1jCjV1c6gubCx1Sw6U6N</consumerSecret>
+                <accessToken>14623384-eap5PTVEJmpb4Sb61ti15fCJ0gtCWbtdYY7aViNQD</accessToken>
+                <accessTokenSecret>06xG2kapj3epAWG7GpOwAOhkykkmoc2iXTV0hVFLiYxJc</accessTokenSecret>
+            </twitter.init>
+            <log level="full"/>
+            <twitter.getFriends>
+                <screenName>asela38</screenName>
+            </twitter.getFriends>
+            <property name="messageType" value="application/xml" scope="axis2" type="STRING"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+</proxy>

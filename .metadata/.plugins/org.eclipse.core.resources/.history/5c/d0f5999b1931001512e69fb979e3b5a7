@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_SmfT0DEZEeWwlOjKDK1iPQ" type="Esb" name="proxy_GlobalInstanceProxy.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_SoXjIDEZEeWwlOjKDK1iPQ" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SoXjJTEZEeWwlOjKDK1iPQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_SsTA4DEZEeWwlOjKDK1iPQ" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_SsTn8DEZEeWwlOjKDK1iPQ" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_SsTA4TEZEeWwlOjKDK1iPQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_SsTA4jEZEeWwlOjKDK1iPQ" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_SsTA4zEZEeWwlOjKDK1iPQ"/>
+        <element xmi:type="esb:ProxyService" href="proxy_GlobalInstanceProxy.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SsTA5DEZEeWwlOjKDK1iPQ" width="300" height="400"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_SoXjITEZEeWwlOjKDK1iPQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_SoXjIjEZEeWwlOjKDK1iPQ" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_SoXjIzEZEeWwlOjKDK1iPQ"/>
+    <element xmi:type="esb:EsbServer" href="proxy_GlobalInstanceProxy.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SoXjJDEZEeWwlOjKDK1iPQ"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_SmfT0TEZEeWwlOjKDK1iPQ"/>
+  <element xmi:type="esb:EsbDiagram" href="proxy_GlobalInstanceProxy.esb#/"/>
+</notation:Diagram>

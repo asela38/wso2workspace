@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="WeatherProxy" transports="jms" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <log level="full"/>
+            <property name="city" expression="//city" scope="default" type="STRING"/>
+            <log level="full">
+                <property name="city" expression="get-property('city')"/>
+            </log>
+            <call>
+                <endpoint>
+                    <http method="get" uri-template="http://api.openweathermap.org/data/2.5/weather?q={city}"/>
+                </endpoint>
+            </call>
+            <log level="headers">
+                <property name="dt" expression="$body/jsonObject/dt"/>
+                <property name="city" expression="$body/jsonObject/name"/>
+                <property name="temp" expression="$body/jsonObject/main/temp"/>
+            </log>
+            <property name="epoch" expression="$body/jsonObject/dt" scope="default" type="STRING"/>
+            <log level="headers">
+                <property name="dt" expression="get-property('epoch')"/>
+            </log>
+            <script language="js">var t = mc.getProperty("epoch");
+                print(t);
+			    var date = new Date(parseInt(t)).toString();
+			    print(date);
+			    mc.setProperty("dt", date);</script>
+            <log level="headers">
+                <property name="dt" expression="get-property('dt')"/>
+                <property name="city" expression="$body/jsonObject/name"/>
+                <property name="temp" expression="$body/jsonObject/main/temp"/>
+            </log>
+            <dbreport>
+                <connection>
+                    <pool>
+                        <password>root</password>
+                        <user>root</user>
+                        <url>jdbc:mysql://localhost:3306/weather</url>
+                        <driver>com.mysql.jdbc.Driver</driver>
+                    </pool>
+                </connection>
+                <statement>
+                    <sql>INSERT INTO weather_details (time, city, temperature) VALUES(FROM_UNIXTIME(?)?,?,?)</sql>
+                    <parameter expression="get-property('dt')" type="TIMESTAMP"/>
+                    <parameter expression="$body/jsonObject/name" type="VARCHAR"/>
+                    <parameter expression="$body/jsonObject/main/temp" type="DECIMAL"/>
+                </statement>
+            </dbreport>
+            <log level="full"/>
+            <drop/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+    <parameter name="transport.jms.ContentType">
+        <rules>
+            <jmsProperty>contentType</jmsProperty>
+            <default>application/xml</default>
+        </rules>
+    </parameter>
+</proxy>

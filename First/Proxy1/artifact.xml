@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="synapse1" groupId="com.example.Proxy1.configuration" version="1.0.0" type="synapse/configuration" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/synapse1.xml</file>
+    </artifact>
+    <artifact name="test" groupId="com.example.Proxy1.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/test.xml</file>
+    </artifact>
+</artifacts>

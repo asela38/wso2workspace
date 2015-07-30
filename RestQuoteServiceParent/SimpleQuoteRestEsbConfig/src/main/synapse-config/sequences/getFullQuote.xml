@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence xmlns="http://ws.apache.org/ns/synapse" name="getFullQuote">
+    <payloadFactory media-type="xml">
+        <format>
+            <ser:getFullQuote xmlns:ser="http://services.samples" xmlns:xsd="http://services.samples/xsd">
+                <ser:request>
+                    <xsd:symbol>$1</xsd:symbol>
+                </ser:request>
+            </ser:getFullQuote>
+        </format>
+        <args>
+            <arg evaluator="xml" expression="get-property('uri.var.symbol')"/>
+        </args>
+    </payloadFactory>
+    <header name="Action" scope="default" value="ser:getFullQuote"/>
+</sequence>

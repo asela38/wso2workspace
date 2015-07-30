@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_L6-eEDEZEeWwlOjKDK1iPQ" type="Esb" name="proxy_LoopProxy.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_MYHtEDEZEeWwlOjKDK1iPQ" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MYJiQDEZEeWwlOjKDK1iPQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_MolK8DEZEeWwlOjKDK1iPQ" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_MolyADEZEeWwlOjKDK1iPQ" type="5003"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_MolK8TEZEeWwlOjKDK1iPQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_MolK8jEZEeWwlOjKDK1iPQ" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_MolK8zEZEeWwlOjKDK1iPQ"/>
+        <element xmi:type="esb:ProxyService" href="proxy_LoopProxy.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MolK9DEZEeWwlOjKDK1iPQ" width="300" height="400"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_MYHtETEZEeWwlOjKDK1iPQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MYHtEjEZEeWwlOjKDK1iPQ" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_MYHtEzEZEeWwlOjKDK1iPQ"/>
+    <element xmi:type="esb:EsbServer" href="proxy_LoopProxy.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MYHtFDEZEeWwlOjKDK1iPQ"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_L6-eETEZEeWwlOjKDK1iPQ"/>
+  <element xmi:type="esb:EsbDiagram" href="proxy_LoopProxy.esb#/"/>
+</notation:Diagram>

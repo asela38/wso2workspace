@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="LogServiceProxy" transports="http https" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <log level="full" separator=" - | - ">
+                <property name="out_only" expression="get-property('OUT_ONLY')"/>
+                <property name="out_only" expression="get-property('TRANSPORT_IN_NAME')"/>
+                <property name="out_only" expression="get-property('preserveProcessedHeaders')"/>
+                <property name="out_only" expression="get-property('SERVER_IP')"/>
+                <property name="out_only" expression="get-property('FORCE_ERROR_ON_SOAP_FAULT')"/>
+            </log>
+            <property name="FORCE_SC_ACCEPTED" value="true" scope="axis2" type="STRING"/>
+            <property name="OUT_ONLY" value="true" scope="default" type="STRING"/>
+            <log level="full" separator="//">
+                <property name="out_only" expression="get-property('OUT_ONLY')"/>
+            </log>
+            <store messageStore="JMSMS"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+</proxy>

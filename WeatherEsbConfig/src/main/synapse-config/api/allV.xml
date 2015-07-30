@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api xmlns="http://ws.apache.org/ns/synapse" name="WeatherAPI" context="/weather">
+    <resource methods="GET" uri-template="/all?city={city}">
+        <inSequence>
+            <log>
+                <property name="city" expression="get-property('uri.var.city')"/>
+            </log>
+            <property name="REST_URL_POSTFIX" expression="get-property('uri.var.city')" scope="axis2" type="STRING"/>
+            <clone>
+                <target>
+                    <endpoint>
+                        <address uri="http://api.openweathermap.org/data/2.5/weather?q=" format="rest"/>
+                    </endpoint>
+                </target>
+                <target>
+                    <endpoint>
+                        <http format="rest" method="get" uri-template="http://api.openweathermap.org/data/2.5/forecast?q={uri.var.city}"/>
+                    </endpoint>
+                </target>
+            </clone>
+        </inSequence>
+        <outSequence>
+            <property name="response" scope="default">
+                <response/>
+            </property>
+            <aggregate>
+                <completeCondition>
+                    <messageCount min="2" max="-1"/>
+                </completeCondition>
+                <onComplete expression="$body//jsonObject" enclosingElementProperty="response">
+                    <property name="json" expression="$body//jsonObject" scope="default" type="STRING"/>
+                    <send/>
+                </onComplete>
+            </aggregate>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

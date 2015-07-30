@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api xmlns="http://ws.apache.org/ns/synapse" name="SimpleQuoteRest" context="/SimpleQuote">
+    <resource methods="POST GET" uri-template="/organization/{symbol}/{resource}?mode={mode}">
+        <inSequence>
+            <log level="full">
+                <property name="symbol" expression="get-property('uri.var.symbol')"/>
+                <property name="resource" expression="get-property('uri.var.resource')"/>
+                <property name="mode" expression="get-property('uri.var.mode')"/>
+            </log>
+            <switch source="get-property('uri.var.resource')">
+                <case regex="quote">
+                    <switch source="get-property('uri.var.mode')">
+                        <case regex="full">
+                            <sequence key="getFullQuote"/>
+                        </case>
+                        <case regex="simple">
+                            <sequence key="getSimpleQuote"/>
+                        </case>
+                        <default>
+                            <sequence key="getQuote"/>
+                        </default>
+                    </switch>
+                </case>
+                <case regex="marketActivity">
+                    <sequence key="getMarketActivity"/>
+                </case>
+                <case regex="order">
+                    <sequence key="placeOrder"/>
+                </case>
+                <default/>
+            </switch>
+            <log level="full"/>
+            <send/>
+        </inSequence>
+        <outSequence>
+            <switch source="get-property('axis2', 'HTTP_SC')">
+                <case regex="202"/>
+                <default>
+                    <enrich>
+                        <source xmlns:ns="http://services.samples" clone="true" xpath="//*/ns:return"/>
+                        <target type="body"/>
+                    </enrich>
+                    <log level="full"/>
+                    <property name="messageType" value="application/json" scope="axis2" type="STRING"/>
+                </default>
+            </switch>
+            <send/>
+        </outSequence>
+        <faultSequence>
+            <property name="NO_ENTITY_BODY" scope="axis2" action="remove"/>
+            <property name="messageType" value="application/json" scope="axis2" type="STRING"/>
+            <log level="custom">
+                <property name="text" value="An unexpected error occured"/>
+                <property name="message" expression="get-property('ERROR_MESSAGE')"/>
+            </log>
+            <makefault version="pox">
+                <reason expression="get-property('ERROR_MESSAGE')"/>
+            </makefault>
+            <respond/>
+        </faultSequence>
+    </resource>
+</api>

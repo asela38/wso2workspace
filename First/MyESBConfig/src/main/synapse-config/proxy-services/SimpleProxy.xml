@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="SimpleProxy" transports="http https" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <send>
+                <endpoint>
+                    <address uri="http://localhost:51515/"/>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+</proxy>

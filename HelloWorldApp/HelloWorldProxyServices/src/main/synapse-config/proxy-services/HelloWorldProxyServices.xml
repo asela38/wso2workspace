@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="HelloWorldProxyServices" transports="https http" startOnLoad="true" trace="disable">
+    <target>
+        <endpoint key="gov:/endpoints/HelloWorld/HelloWorldServiceEP.xml"/>
+        <inSequence>
+            <log level="full"/>
+        </inSequence>
+        <outSequence>
+            <log level="full"/>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </target>
+</proxy>

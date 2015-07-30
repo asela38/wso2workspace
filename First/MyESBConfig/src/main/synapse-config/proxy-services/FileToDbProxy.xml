@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="FileToDbProxy" transports="vfs" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <log level="full"/>
+            <dbreport>
+                <connection>
+                    <pool>
+                        <password>root</password>
+                        <user>root</user>
+                        <url>jdbc:mysql://localhost:3306/transactions</url>
+                        <driver>com.mysql.jdbc.Driver</driver>
+                    </pool>
+                </connection>
+                <statement>
+                    <sql>INSERT INTO messages VALUES(?,?)</sql>
+                    <parameter expression="//transID" type="VARCHAR"/>
+                    <parameter expression="//message" type="VARCHAR"/>
+                </statement>
+            </dbreport>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+    <parameter name="transport.PollInterval">15</parameter>
+    <parameter name="transport.vfs.ActionAfterProcess">MOVE</parameter>
+    <parameter name="transport.vfs.FileURI">file:///home/wso2/vfs/in</parameter>
+    <parameter name="transport.vfs.MoveAfterProcess">file:///home/wso2/vfs/done</parameter>
+    <parameter name="transport.vfs.MoveAfterFailure">file:///home/wso2/vfs/fail</parameter>
+    <parameter name="transport.vfs.FileNamePattern">.*\.xml</parameter>
+    <parameter name="transport.vfs.ContentType">application/xml</parameter>
+    <parameter name="transport.vfs.ActionAfterFailure">MOVE</parameter>
+</proxy>

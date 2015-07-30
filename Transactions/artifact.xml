@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="JMSProviderProxy" groupId="com.example.Transactions.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/JMSProviderProxy.xml</file>
+    </artifact>
+    <artifact name="JMSConsumerProxy" groupId="com.example.Transactions.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/JMSConsumerProxy.xml</file>
+    </artifact>
+    <artifact name="SimpleTask" groupId="com.example.Transactions.task" version="1.0.0" type="synapse/task" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/tasks/SimpleTask.xml</file>
+    </artifact>
+</artifacts>

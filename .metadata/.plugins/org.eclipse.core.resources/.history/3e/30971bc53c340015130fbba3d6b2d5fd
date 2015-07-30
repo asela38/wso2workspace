@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api xmlns="http://ws.apache.org/ns/synapse" name="SimpleQuoteRest" context="/SimpleQuote">
+    <resource methods="GET" uri-template="/organization/{symbol}/{resource}?mode={mode}">
+        <inSequence>
+            <log level="custom">
+                <property name="symbol" expression="get-property('uri.var.symbol')"/>
+                <property name="resource" expression="get-property('uri.var.resource')"/>
+                <property name="mode" expression="get-property('uri.var.mode')"/>
+            </log>
+            <switch source="get-property('uri.var.resource')">
+                <case regex="quote">
+                    <payloadFactory media-type="xml">
+                        <format>
+                            <ser:getQuote xmlns:ser="http://services.samples" xmlns:xsd="http://services.samples/xsd">
+                                <ser:request>
+                                    <xsd:symbol>$1</xsd:symbol>
+                                </ser:request>
+                            </ser:getQuote>
+                        </format>
+                        <args>
+                            <arg evaluator="xml" expression="get-property('uri.var.symbol')"/>
+                        </args>
+                    </payloadFactory>
+                    <log level="full"/>
+                    <send>
+                        <endpoint>
+                            <address uri="http://localhost:9764/services/SimpleStockQuoteService" format="soap11"/>
+                        </endpoint>
+                    </send>
+                </case>
+                <default/>
+            </switch>
+        </inSequence>
+        <outSequence>
+            <property name="property_name" value="value" scope="default" type="STRING"/>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

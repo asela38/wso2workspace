@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api xmlns="http://ws.apache.org/ns/synapse" name="SimpleQuoteRest" context="/SimpleQuote" hostname="localhost" port="8080">
+    <resource methods="GET" uri-template="/organization/{symbol}/{resource}?mode={mode}">
+        <inSequence>
+            <log>
+                <property name="test" expression="var.ui.symbol"/>
+                <property name="test" expression="var.ui.resource"/>
+                <property name="test" expression="var.ui.mode"/>
+            </log>
+            <drop/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

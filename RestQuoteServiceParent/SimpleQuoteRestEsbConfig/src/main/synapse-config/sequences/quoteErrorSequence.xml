@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence xmlns="http://ws.apache.org/ns/synapse" name="quoteErrorSequence">
+    <makefault version="soap11">
+        <code xmlns:soap11Env="http://schemas.xmlsoap.org/soap/envelope/" value="soap11Env:VersionMismatch"/>
+        <reason expression="get-property('ERROR_MESSAGE')"/>
+    </makefault>
+    <property name="RESPONSE" value="true" scope="default" type="STRING"/>
+    <header name="To" scope="default" expression="get-property('ReplyTo')"/>
+    <send/>
+</sequence>

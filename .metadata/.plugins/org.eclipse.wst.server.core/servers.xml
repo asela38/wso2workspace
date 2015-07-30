@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server PASSWORD="admin" SERVER_URL="https://localhost:9443/" USERNAME="admin" hostname=" https://127.0.0.1:8280" id="WSO2 Carbon remote server at  https://127.0.0.1:8280" name="ESB Dev" server-type="org.wso2.developerstudio.eclipse.carbon.server.remote" server-type-id="org.wso2.developerstudio.eclipse.carbon.server.remote" start-timeout="600" stop-timeout="15" timestamp="8">
+    <list key="RCS_MODULES_LIST" value0="org.wso2.developerstudio.eclipse.carbon.moduleFactory:SimpleQuoteRestCAR"/>
+    <list key="modules" value0="SimpleQuoteRestCAR::org.wso2.developerstudio.eclipse.carbon.moduleFactory:SimpleQuoteRestCAR::org.wso2.developerstudio.eclipse.carbon.module::1.0"/>
+  </server>
+  <server PASSWORD="admin" SERVER_URL="https://127.0.0.1:9446/" USERNAME="admin" hostname="GREG" id="GREG" name="GREG" server-type="org.wso2.developerstudio.eclipse.carbon.server.remote" server-type-id="org.wso2.developerstudio.eclipse.carbon.server.remote" start-timeout="600" stop-timeout="15" timestamp="2">
+    <list key="RCS_MODULES_LIST" value0="org.wso2.developerstudio.eclipse.carbon.moduleFactory:HelloWorldResourcesDevCApp"/>
+    <list key="modules" value0="HelloWorldResourcesDevCApp::org.wso2.developerstudio.eclipse.carbon.moduleFactory:HelloWorldResourcesDevCApp::org.wso2.developerstudio.eclipse.carbon.module::1.0"/>
+  </server>
+</servers>

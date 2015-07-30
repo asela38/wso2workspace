@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_IDTHgCbJEeWnFtGLGOfUTQ" type="Esb" name="proxy_TwitterProxy.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_HwIecCbKEeWYF4OybRcYzw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HwJFgCbKEeWYF4OybRcYzw" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_G1LQECbgEeWYF4OybRcYzw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_G1LQFSbgEeWYF4OybRcYzw" type="5003"/>
+        <children xmi:type="notation:Node" xmi:id="_G1NFQCbgEeWYF4OybRcYzw" type="3002">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_G1NFQSbgEeWYF4OybRcYzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_G1NFQibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_G1NFQybgEeWYF4OybRcYzw"/>
+          <element xmi:type="esb:ProxyOutputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@outputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1NFRCbgEeWYF4OybRcYzw" x="81" y="-27"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_G1NFRSbgEeWYF4OybRcYzw" type="3003">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_G1NFRibgEeWYF4OybRcYzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_G1NFRybgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_G1NFSCbgEeWYF4OybRcYzw"/>
+          <element xmi:type="esb:ProxyInputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@inputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1NFSSbgEeWYF4OybRcYzw" x="81" y="-15"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_G1NsUCbgEeWYF4OybRcYzw" type="3729">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_G1NsUSbgEeWYF4OybRcYzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_G1NsUibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_G1NsUybgEeWYF4OybRcYzw"/>
+          <element xmi:type="esb:ProxyOutSequenceOutputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@outSequenceOutputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1NsVCbgEeWYF4OybRcYzw" x="105" y="-15"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_G1NsVSbgEeWYF4OybRcYzw" type="3489">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_G1NsVibgEeWYF4OybRcYzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_G1NsVybgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_G1NsWCbgEeWYF4OybRcYzw"/>
+          <element xmi:type="esb:ProxyFaultInputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@faultInputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1NsWSbgEeWYF4OybRcYzw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_G1OTYCbgEeWYF4OybRcYzw" type="3486">
+          <children xmi:type="notation:Node" xmi:id="_G1QvoCbgEeWYF4OybRcYzw" type="3487">
+            <children xmi:type="notation:Node" xmi:id="_G1R9wCbgEeWYF4OybRcYzw" type="3608">
+              <children xmi:type="notation:DecorationNode" xmi:id="_G1R9xSbgEeWYF4OybRcYzw" type="7034">
+                <children xmi:type="notation:Node" xmi:id="_G1fZICbgEeWYF4OybRcYzw" type="3495">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_G1fZJSbgEeWYF4OybRcYzw" type="5168"/>
+                  <children xmi:type="notation:Node" xmi:id="_G1h1YCbgEeWYF4OybRcYzw" type="3018">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_G1h1YSbgEeWYF4OybRcYzw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_G1h1YibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_G1h1YybgEeWYF4OybRcYzw"/>
+                    <element xmi:type="esb:LogMediatorInputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1h1ZCbgEeWYF4OybRcYzw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_G1iccCbgEeWYF4OybRcYzw" type="3019">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_G1iccSbgEeWYF4OybRcYzw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_G1iccibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_G1iccybgEeWYF4OybRcYzw"/>
+                    <element xmi:type="esb:LogMediatorOutputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1icdCbgEeWYF4OybRcYzw" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_G1fZISbgEeWYF4OybRcYzw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_G1fZIibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_G1fZIybgEeWYF4OybRcYzw"/>
+                  <element xmi:type="esb:LogMediator" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1fZJCbgEeWYF4OybRcYzw" x="46" y="15" width="79" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_G1xtACbgEeWYF4OybRcYzw" type="3722">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_G1yUECbgEeWYF4OybRcYzw" type="5198"/>
+                  <children xmi:type="notation:Node" xmi:id="_G11XYCbgEeWYF4OybRcYzw" type="3723">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_G11XYSbgEeWYF4OybRcYzw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_G11XYibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_G11XYybgEeWYF4OybRcYzw"/>
+                    <element xmi:type="esb:CloudConnectorOperationInputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G11XZCbgEeWYF4OybRcYzw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_G11-cCbgEeWYF4OybRcYzw" type="3724">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_G11-cSbgEeWYF4OybRcYzw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_G11-cibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_G11-cybgEeWYF4OybRcYzw"/>
+                    <element xmi:type="esb:CloudConnectorOperationOutputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G11-dCbgEeWYF4OybRcYzw" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_G1xtASbgEeWYF4OybRcYzw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_G1xtAibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_G1xtAybgEeWYF4OybRcYzw"/>
+                  <element xmi:type="esb:CloudConnectorOperation" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1xtBCbgEeWYF4OybRcYzw" x="142" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_G2h68CbgEeWYF4OybRcYzw" type="3495">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_G2h69SbgEeWYF4OybRcYzw" type="5168"/>
+                  <children xmi:type="notation:Node" xmi:id="_G2kXMCbgEeWYF4OybRcYzw" type="3018">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_G2kXMSbgEeWYF4OybRcYzw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_G2kXMibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_G2kXMybgEeWYF4OybRcYzw"/>
+                    <element xmi:type="esb:LogMediatorInputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G2kXNCbgEeWYF4OybRcYzw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_G2k-QCbgEeWYF4OybRcYzw" type="3019">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_G2k-QSbgEeWYF4OybRcYzw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_G2k-QibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_G2k-QybgEeWYF4OybRcYzw"/>
+                    <element xmi:type="esb:LogMediatorOutputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G2k-RCbgEeWYF4OybRcYzw" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_G2h68SbgEeWYF4OybRcYzw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_G2h68ibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_G2h68ybgEeWYF4OybRcYzw"/>
+                  <element xmi:type="esb:LogMediator" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G2h69CbgEeWYF4OybRcYzw" x="259" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_G3iAgCbgEeWYF4OybRcYzw" type="3722">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_G3iAhSbgEeWYF4OybRcYzw" type="5198"/>
+                  <children xmi:type="notation:Node" xmi:id="_G3jOoCbgEeWYF4OybRcYzw" type="3723">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_G3jOoSbgEeWYF4OybRcYzw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_G3jOoibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_G3jOoybgEeWYF4OybRcYzw"/>
+                    <element xmi:type="esb:CloudConnectorOperationInputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G3jOpCbgEeWYF4OybRcYzw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_G3j1sCbgEeWYF4OybRcYzw" type="3724">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_G3j1sSbgEeWYF4OybRcYzw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_G3j1sibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_G3j1sybgEeWYF4OybRcYzw"/>
+                    <element xmi:type="esb:CloudConnectorOperationOutputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G3j1tCbgEeWYF4OybRcYzw" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_G3iAgSbgEeWYF4OybRcYzw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_G3iAgibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_G3iAgybgEeWYF4OybRcYzw"/>
+                  <element xmi:type="esb:CloudConnectorOperation" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G3iAhCbgEeWYF4OybRcYzw" x="643" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_TaNogCbhEeWYF4OybRcYzw" type="3739">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_TaOPkCbhEeWYF4OybRcYzw" type="5209"/>
+                  <children xmi:type="notation:Node" xmi:id="_TaptYCbhEeWYF4OybRcYzw" type="3740">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_TaptYSbhEeWYF4OybRcYzw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_TaptYibhEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_TaptYybhEeWYF4OybRcYzw"/>
+                    <element xmi:type="esb:RespondMediatorInputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TaptZCbhEeWYF4OybRcYzw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_TaqUcCbhEeWYF4OybRcYzw" type="3741">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_TaqUcSbhEeWYF4OybRcYzw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_TaqUcibhEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_TaqUcybhEeWYF4OybRcYzw"/>
+                    <element xmi:type="esb:RespondMediatorOutputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TaqUdCbhEeWYF4OybRcYzw" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_TaNogSbhEeWYF4OybRcYzw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_TaNogibhEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_TaNogybhEeWYF4OybRcYzw"/>
+                  <element xmi:type="esb:RespondMediator" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TaNohCbhEeWYF4OybRcYzw" x="965" y="44"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_DzA0sCbiEeWYF4OybRcYzw" type="3492">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_DzBbwCbiEeWYF4OybRcYzw" type="5167"/>
+                  <children xmi:type="notation:Node" xmi:id="_DzO3ICbiEeWYF4OybRcYzw" type="3033">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_DzO3ISbiEeWYF4OybRcYzw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_DzO3IibiEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_DzO3IybiEeWYF4OybRcYzw"/>
+                    <element xmi:type="esb:PropertyMediatorInputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DzO3JCbiEeWYF4OybRcYzw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_DzO3JSbiEeWYF4OybRcYzw" type="3034">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_DzO3JibiEeWYF4OybRcYzw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_DzO3JybiEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_DzO3KCbiEeWYF4OybRcYzw"/>
+                    <element xmi:type="esb:PropertyMediatorOutputConnector" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DzO3KSbiEeWYF4OybRcYzw" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_DzA0sSbiEeWYF4OybRcYzw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_DzA0sibiEeWYF4OybRcYzw" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_DzA0sybiEeWYF4OybRcYzw"/>
+                  <element xmi:type="esb:PropertyMediator" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DzA0tCbiEeWYF4OybRcYzw" x="539" y="41"/>
+                </children>
+                <styles xmi:type="notation:TitleStyle" xmi:id="_G1R9xibgEeWYF4OybRcYzw" showTitle="true"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_G1R9wSbgEeWYF4OybRcYzw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_G1R9wibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_G1R9wybgEeWYF4OybRcYzw"/>
+              <element xmi:type="esb:MediatorFlow" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1R9xCbgEeWYF4OybRcYzw"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_G1QvoSbgEeWYF4OybRcYzw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_G1QvoibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_G1QvoybgEeWYF4OybRcYzw"/>
+            <element xmi:type="esb:ProxyServiceSequenceAndEndpointContainer" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1QvpCbgEeWYF4OybRcYzw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_G1RWsCbgEeWYF4OybRcYzw" type="3488">
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_G1RWsSbgEeWYF4OybRcYzw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_G1RWsibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_G1RWsybgEeWYF4OybRcYzw"/>
+            <element xmi:type="esb:ProxyServiceFaultContainer" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@faultContainer"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1RWtCbgEeWYF4OybRcYzw"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_G1OTYSbgEeWYF4OybRcYzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_G1OTYibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_G1OTYybgEeWYF4OybRcYzw"/>
+          <element xmi:type="esb:ProxyServiceContainer" href="proxy_TwitterProxy.esb#//@server/@children.0/@container"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1OTZCbgEeWYF4OybRcYzw"/>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_G1LQESbgEeWYF4OybRcYzw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_G1LQEibgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_G1LQEybgEeWYF4OybRcYzw"/>
+        <element xmi:type="esb:ProxyService" href="proxy_TwitterProxy.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1LQFCbgEeWYF4OybRcYzw" width="300" height="400"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_HwIecSbKEeWYF4OybRcYzw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HwIecibKEeWYF4OybRcYzw" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_HwIecybKEeWYF4OybRcYzw"/>
+    <element xmi:type="esb:EsbServer" href="proxy_TwitterProxy.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HwIedCbKEeWYF4OybRcYzw"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_IDTHgSbJEeWnFtGLGOfUTQ"/>
+  <element xmi:type="esb:EsbDiagram" href="proxy_TwitterProxy.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_G4cmgCbgEeWYF4OybRcYzw" type="4001" source="_G1NFQCbgEeWYF4OybRcYzw" target="_G1h1YCbgEeWYF4OybRcYzw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_G4cmgSbgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TwitterProxy.esb#//@server/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G4cmgibgEeWYF4OybRcYzw" points="[11, 5, -5, 0]$[10, 0, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_G4itICbgEeWYF4OybRcYzw" type="4001" source="_G1iccCbgEeWYF4OybRcYzw" target="_G11XYCbgEeWYF4OybRcYzw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_G4itISbgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G4itIibgEeWYF4OybRcYzw" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_G4pa0CbgEeWYF4OybRcYzw" type="4001" source="_G11-cCbgEeWYF4OybRcYzw" target="_G2kXMCbgEeWYF4OybRcYzw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_G4pa0SbgEeWYF4OybRcYzw" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G4pa0ibgEeWYF4OybRcYzw" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_fQprACbhEeWYF4OybRcYzw" type="4001" source="_G2k-QCbgEeWYF4OybRcYzw" target="_G3jOoCbgEeWYF4OybRcYzw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_fQprASbhEeWYF4OybRcYzw" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fQprAibhEeWYF4OybRcYzw" points="[6, 0, -173, 0]$[173, 0, -6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_D1I7oCbiEeWYF4OybRcYzw" type="4001" source="_G3j1sCbgEeWYF4OybRcYzw" target="_DzO3ICbiEeWYF4OybRcYzw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_D1I7oSbiEeWYF4OybRcYzw" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D1I7oibiEeWYF4OybRcYzw" points="[5, 5, -23, -21]$[22, 21, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yA0I8CbiEeWYF4OybRcYzw" type="4001" source="_DzO3JSbiEeWYF4OybRcYzw" target="_TaptYCbhEeWYF4OybRcYzw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_yA0I8SbiEeWYF4OybRcYzw" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TwitterProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yA0I8ibiEeWYF4OybRcYzw" points="[6, 0, -173, 0]$[173, 0, -6, 0]"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="Test" transports="https http" startOnLoad="true" trace="disable">
+    <target>
+        <endpoint name="endpoint_urn_uuid_cfff1102-27ea-46ea-b080-c38d4a00af57">
+            <address uri="http://10.10.10.33:9764/services/HelloService/"/>
+        </endpoint>
+        <inSequence>
+            <log level="full" description="">
+                <property name="ttttttttttttttttttttttttttt" value="property_value"/>
+            </log>
+        </inSequence>
+        <outSequence>
+            <log level="full" description="">
+                <property name="gggggggggggggggggggg" value="property_value"/>
+            </log>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </target>
+</proxy>

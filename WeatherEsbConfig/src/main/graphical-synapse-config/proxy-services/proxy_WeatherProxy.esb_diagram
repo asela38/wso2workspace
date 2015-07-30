@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_DL8m8ClOEeWgwbwV5FaMLQ" type="Esb" name="proxy_WeatherProxy.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_DOCRoClOEeWgwbwV5FaMLQ" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_DOCRpSlOEeWgwbwV5FaMLQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_p5DDQCnlEeWzRdc7CztRZQ" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_p5DDRSnlEeWzRdc7CztRZQ" type="5003"/>
+        <children xmi:type="notation:Node" xmi:id="_p5FfgCnlEeWzRdc7CztRZQ" type="3002">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5FfgSnlEeWzRdc7CztRZQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_p5FfginlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_p5FfgynlEeWzRdc7CztRZQ"/>
+          <element xmi:type="esb:ProxyOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@outputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5FfhCnlEeWzRdc7CztRZQ" x="81" y="-27"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_p5FfhSnlEeWzRdc7CztRZQ" type="3003">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5GGkCnlEeWzRdc7CztRZQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_p5GGkSnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_p5GGkinlEeWzRdc7CztRZQ"/>
+          <element xmi:type="esb:ProxyInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@inputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5GGkynlEeWzRdc7CztRZQ" x="81" y="-15"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_p5GGlCnlEeWzRdc7CztRZQ" type="3729">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5GGlSnlEeWzRdc7CztRZQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_p5GGlinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_p5GGlynlEeWzRdc7CztRZQ"/>
+          <element xmi:type="esb:ProxyOutSequenceOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@outSequenceOutputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5GGmCnlEeWzRdc7CztRZQ" x="105" y="-15"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_p5GtoCnlEeWzRdc7CztRZQ" type="3489">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5GtoSnlEeWzRdc7CztRZQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_p5GtoinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_p5GtoynlEeWzRdc7CztRZQ"/>
+          <element xmi:type="esb:ProxyFaultInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@faultInputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5GtpCnlEeWzRdc7CztRZQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_p5GtpSnlEeWzRdc7CztRZQ" type="3486">
+          <children xmi:type="notation:Node" xmi:id="_p5Jw8CnlEeWzRdc7CztRZQ" type="3487">
+            <children xmi:type="notation:Node" xmi:id="_p5KYACnlEeWzRdc7CztRZQ" type="3608">
+              <children xmi:type="notation:DecorationNode" xmi:id="_p5K_ECnlEeWzRdc7CztRZQ" type="7034">
+                <children xmi:type="notation:Node" xmi:id="_p5a2sCnlEeWzRdc7CztRZQ" type="3495">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_p5a2tSnlEeWzRdc7CztRZQ" type="5168"/>
+                  <children xmi:type="notation:Node" xmi:id="_p5dS8CnlEeWzRdc7CztRZQ" type="3018">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5dS8SnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p5dS8inlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p5dS8ynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:LogMediatorInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5dS9CnlEeWzRdc7CztRZQ" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_p5d6ACnlEeWzRdc7CztRZQ" type="3019">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5d6ASnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p5d6AinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p5d6AynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:LogMediatorOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5d6BCnlEeWzRdc7CztRZQ" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5a2sSnlEeWzRdc7CztRZQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_p5a2sinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_p5a2synlEeWzRdc7CztRZQ"/>
+                  <element xmi:type="esb:LogMediator" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5a2tCnlEeWzRdc7CztRZQ" x="25" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_p5pgMCnlEeWzRdc7CztRZQ" type="3492">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_p5pgNSnlEeWzRdc7CztRZQ" type="5167"/>
+                  <children xmi:type="notation:Node" xmi:id="_p5r8cCnlEeWzRdc7CztRZQ" type="3033">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5r8cSnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p5r8cinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p5r8cynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:PropertyMediatorInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5r8dCnlEeWzRdc7CztRZQ" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_p5r8dSnlEeWzRdc7CztRZQ" type="3034">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5r8dinlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p5r8dynlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p5r8eCnlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:PropertyMediatorOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5r8eSnlEeWzRdc7CztRZQ" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5pgMSnlEeWzRdc7CztRZQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_p5pgMinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_p5pgMynlEeWzRdc7CztRZQ"/>
+                  <element xmi:type="esb:PropertyMediator" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5pgNCnlEeWzRdc7CztRZQ" x="142" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_p54JsCnlEeWzRdc7CztRZQ" type="3495">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_p54JtSnlEeWzRdc7CztRZQ" type="5168"/>
+                  <children xmi:type="notation:Node" xmi:id="_p56l8CnlEeWzRdc7CztRZQ" type="3018">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p56l8SnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p56l8inlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p56l8ynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:LogMediatorInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p56l9CnlEeWzRdc7CztRZQ" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_p57NACnlEeWzRdc7CztRZQ" type="3019">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p57NASnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p57NAinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p57NAynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:LogMediatorOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p57NBCnlEeWzRdc7CztRZQ" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_p54JsSnlEeWzRdc7CztRZQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_p54JsinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_p54JsynlEeWzRdc7CztRZQ"/>
+                  <element xmi:type="esb:LogMediator" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p54JtCnlEeWzRdc7CztRZQ" x="259" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_p6E-ACnlEeWzRdc7CztRZQ" type="3742">
+                  <children xmi:type="notation:Node" xmi:id="_p6GzMCnlEeWzRdc7CztRZQ" type="3743">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p6GzMSnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p6GzMinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p6GzMynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:CallMediatorInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6GzNCnlEeWzRdc7CztRZQ" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_p6HaQCnlEeWzRdc7CztRZQ" type="3744">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p6HaQSnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p6HaQinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p6HaQynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:CallMediatorOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6HaRCnlEeWzRdc7CztRZQ" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_p6HaRSnlEeWzRdc7CztRZQ" type="3745">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p6HaRinlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p6HaRynlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p6HaSCnlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:CallMediatorEndpointOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@endpointOutputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6HaSSnlEeWzRdc7CztRZQ"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_p6IBUCnlEeWzRdc7CztRZQ" type="3746">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_p6IBVSnlEeWzRdc7CztRZQ" type="7047">
+                      <children xmi:type="notation:Node" xmi:id="_p6RyUCnlEeWzRdc7CztRZQ" type="3709">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_p6SZYCnlEeWzRdc7CztRZQ" type="5206"/>
+                        <children xmi:type="notation:Node" xmi:id="_p6UOkCnlEeWzRdc7CztRZQ" type="3710">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_p6UOkSnlEeWzRdc7CztRZQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_p6UOkinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_p6UOkynlEeWzRdc7CztRZQ"/>
+                          <element xmi:type="esb:HTTPEndPointInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@mediatorFlow/@children.0/@inputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6UOlCnlEeWzRdc7CztRZQ"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_p6RyUSnlEeWzRdc7CztRZQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_p6RyUinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_p6RyUynlEeWzRdc7CztRZQ"/>
+                        <element xmi:type="esb:HTTPEndpoint" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@mediatorFlow/@children.0"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6RyVCnlEeWzRdc7CztRZQ" x="5" y="202"/>
+                      </children>
+                      <styles xmi:type="notation:TitleStyle" xmi:id="_p6IBVinlEeWzRdc7CztRZQ" showTitle="true"/>
+                    </children>
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p6IBUSnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p6IBUinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p6IBUynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:MediatorFlow" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@mediatorFlow"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6IBVCnlEeWzRdc7CztRZQ"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_p6E-ASnlEeWzRdc7CztRZQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_p6E-AinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_p6E-AynlEeWzRdc7CztRZQ"/>
+                  <element xmi:type="esb:CallMediator" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6E-BCnlEeWzRdc7CztRZQ" x="376" y="58" width="170" height="100"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_p6cKYCnlEeWzRdc7CztRZQ" type="3495">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_p6cxcCnlEeWzRdc7CztRZQ" type="5168"/>
+                  <children xmi:type="notation:Node" xmi:id="_p6emoCnlEeWzRdc7CztRZQ" type="3018">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p6emoSnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p6emoinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p6emoynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:LogMediatorInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6empCnlEeWzRdc7CztRZQ" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_p6empSnlEeWzRdc7CztRZQ" type="3019">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p6empinlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p6empynlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p6emqCnlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:LogMediatorOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6emqSnlEeWzRdc7CztRZQ" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_p6cKYSnlEeWzRdc7CztRZQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_p6cKYinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_p6cKYynlEeWzRdc7CztRZQ"/>
+                  <element xmi:type="esb:LogMediator" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6cKZCnlEeWzRdc7CztRZQ" x="586" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_p6oXoCnlEeWzRdc7CztRZQ" type="3492">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_p6oXpSnlEeWzRdc7CztRZQ" type="5167"/>
+                  <children xmi:type="notation:Node" xmi:id="_p6qM0CnlEeWzRdc7CztRZQ" type="3033">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p6qM0SnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p6qM0inlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p6qM0ynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:PropertyMediatorInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6qM1CnlEeWzRdc7CztRZQ" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_p6qz4CnlEeWzRdc7CztRZQ" type="3034">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p6qz4SnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p6qz4inlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p6qz4ynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:PropertyMediatorOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6qz5CnlEeWzRdc7CztRZQ" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_p6oXoSnlEeWzRdc7CztRZQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_p6oXoinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_p6oXoynlEeWzRdc7CztRZQ"/>
+                  <element xmi:type="esb:PropertyMediator" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6oXpCnlEeWzRdc7CztRZQ" x="703" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_p62aECnlEeWzRdc7CztRZQ" type="3495">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_p62aFSnlEeWzRdc7CztRZQ" type="5168"/>
+                  <children xmi:type="notation:Node" xmi:id="_p64PQCnlEeWzRdc7CztRZQ" type="3018">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p64PQSnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p64PQinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p64PQynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:LogMediatorInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p64PRCnlEeWzRdc7CztRZQ" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_p64PRSnlEeWzRdc7CztRZQ" type="3019">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p64PRinlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p64PRynlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p64PSCnlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:LogMediatorOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p64PSSnlEeWzRdc7CztRZQ" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_p62aESnlEeWzRdc7CztRZQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_p62aEinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_p62aEynlEeWzRdc7CztRZQ"/>
+                  <element xmi:type="esb:LogMediator" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p62aFCnlEeWzRdc7CztRZQ" x="820" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_p7CnUCnlEeWzRdc7CztRZQ" type="3508">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_p7CnVSnlEeWzRdc7CztRZQ" type="5175"/>
+                  <children xmi:type="notation:Node" xmi:id="_p7EcgCnlEeWzRdc7CztRZQ" type="3064">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p7EcgSnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p7EcginlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p7EcgynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:ScriptMediatorInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7EchCnlEeWzRdc7CztRZQ" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_p7EchSnlEeWzRdc7CztRZQ" type="3065">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p7EchinlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p7EchynlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p7EciCnlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:ScriptMediatorOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7EciSnlEeWzRdc7CztRZQ" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_p7CnUSnlEeWzRdc7CztRZQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_p7CnUinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_p7CnUynlEeWzRdc7CztRZQ"/>
+                  <element xmi:type="esb:ScriptMediator" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7CnVCnlEeWzRdc7CztRZQ" x="937" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_p7NmcCnlEeWzRdc7CztRZQ" type="3495">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_p7NmdSnlEeWzRdc7CztRZQ" type="5168"/>
+                  <children xmi:type="notation:Node" xmi:id="_p7PboCnlEeWzRdc7CztRZQ" type="3018">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p7PboSnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p7PboinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p7PboynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:LogMediatorInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.8/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7PbpCnlEeWzRdc7CztRZQ" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_p7PbpSnlEeWzRdc7CztRZQ" type="3019">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p7PbpinlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p7PbpynlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p7PbqCnlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:LogMediatorOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.8/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7PbqSnlEeWzRdc7CztRZQ" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_p7NmcSnlEeWzRdc7CztRZQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_p7NmcinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_p7NmcynlEeWzRdc7CztRZQ"/>
+                  <element xmi:type="esb:LogMediator" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7NmdCnlEeWzRdc7CztRZQ" x="1054" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_p7aawCnlEeWzRdc7CztRZQ" type="3513">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_p7aaxSnlEeWzRdc7CztRZQ" type="5180"/>
+                  <children xmi:type="notation:Node" xmi:id="_p7cP8CnlEeWzRdc7CztRZQ" type="3079">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p7cP8SnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p7cP8inlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p7cP8ynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:DBReportMediatorInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.9/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7cP9CnlEeWzRdc7CztRZQ" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_p7cP9SnlEeWzRdc7CztRZQ" type="3080">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p7cP9inlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p7cP9ynlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p7cP-CnlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:DBReportMediatorOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.9/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7cP-SnlEeWzRdc7CztRZQ" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_p7aawSnlEeWzRdc7CztRZQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_p7aawinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_p7aawynlEeWzRdc7CztRZQ"/>
+                  <element xmi:type="esb:DBReportMediator" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.9"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7aaxCnlEeWzRdc7CztRZQ" x="1171" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_p7t8wCnlEeWzRdc7CztRZQ" type="3495">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_p7t8xSnlEeWzRdc7CztRZQ" type="5168"/>
+                  <children xmi:type="notation:Node" xmi:id="_p7vx8CnlEeWzRdc7CztRZQ" type="3018">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p7vx8SnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p7vx8inlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p7vx8ynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:LogMediatorInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.10/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7vx9CnlEeWzRdc7CztRZQ" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_p7wZACnlEeWzRdc7CztRZQ" type="3019">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p7wZASnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p7wZAinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p7wZAynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:LogMediatorOutputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.10/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7wZBCnlEeWzRdc7CztRZQ" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_p7t8wSnlEeWzRdc7CztRZQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_p7t8winlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_p7t8wynlEeWzRdc7CztRZQ"/>
+                  <element xmi:type="esb:LogMediator" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.10"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p7t8xCnlEeWzRdc7CztRZQ" x="1288" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_p77YICnlEeWzRdc7CztRZQ" type="3491">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_p77_MCnlEeWzRdc7CztRZQ" type="5166"/>
+                  <children xmi:type="notation:Node" xmi:id="_p79NUCnlEeWzRdc7CztRZQ" type="3008">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_p79NUSnlEeWzRdc7CztRZQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_p79NUinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_p79NUynlEeWzRdc7CztRZQ"/>
+                    <element xmi:type="esb:DropMediatorInputConnector" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.11/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p79NVCnlEeWzRdc7CztRZQ"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_p77YISnlEeWzRdc7CztRZQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_p77YIinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_p77YIynlEeWzRdc7CztRZQ"/>
+                  <element xmi:type="esb:DropMediator" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.11"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p77YJCnlEeWzRdc7CztRZQ" x="1405" y="58" width="77" height="75"/>
+                </children>
+                <styles xmi:type="notation:TitleStyle" xmi:id="_p5K_ESnlEeWzRdc7CztRZQ" showTitle="true"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5KYASnlEeWzRdc7CztRZQ"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_p5KYAinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_p5KYAynlEeWzRdc7CztRZQ"/>
+              <element xmi:type="esb:MediatorFlow" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5KYBCnlEeWzRdc7CztRZQ"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5Jw8SnlEeWzRdc7CztRZQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_p5Jw8inlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_p5Jw8ynlEeWzRdc7CztRZQ"/>
+            <element xmi:type="esb:ProxyServiceSequenceAndEndpointContainer" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5Jw9CnlEeWzRdc7CztRZQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_p5Jw9SnlEeWzRdc7CztRZQ" type="3488">
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5Jw9inlEeWzRdc7CztRZQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_p5Jw9ynlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_p5Jw-CnlEeWzRdc7CztRZQ"/>
+            <element xmi:type="esb:ProxyServiceFaultContainer" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@faultContainer"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5Jw-SnlEeWzRdc7CztRZQ"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5GtpinlEeWzRdc7CztRZQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_p5GtpynlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_p5GtqCnlEeWzRdc7CztRZQ"/>
+          <element xmi:type="esb:ProxyServiceContainer" href="proxy_WeatherProxy.esb#//@server/@children.0/@container"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5GtqSnlEeWzRdc7CztRZQ"/>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_p5DDQSnlEeWzRdc7CztRZQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_p5DDQinlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_p5DDQynlEeWzRdc7CztRZQ"/>
+        <element xmi:type="esb:ProxyService" href="proxy_WeatherProxy.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p5DDRCnlEeWzRdc7CztRZQ" width="300" height="400"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_DOCRoSlOEeWgwbwV5FaMLQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_DOCRoilOEeWgwbwV5FaMLQ" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_DOCRoylOEeWgwbwV5FaMLQ"/>
+    <element xmi:type="esb:EsbServer" href="proxy_WeatherProxy.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOCRpClOEeWgwbwV5FaMLQ"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_DL8m8SlOEeWgwbwV5FaMLQ"/>
+  <element xmi:type="esb:EsbDiagram" href="proxy_WeatherProxy.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_p8NE8CnlEeWzRdc7CztRZQ" type="4001" source="_p5FfgCnlEeWzRdc7CztRZQ" target="_p5dS8CnlEeWzRdc7CztRZQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p8NE8SnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_WeatherProxy.esb#//@server/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p8NE8inlEeWzRdc7CztRZQ" points="[11, 5, -5, 0]$[10, 0, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_p8R9cCnlEeWzRdc7CztRZQ" type="4001" source="_p5d6ACnlEeWzRdc7CztRZQ" target="_p5r8cCnlEeWzRdc7CztRZQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p8R9cSnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p8R9cinlEeWzRdc7CztRZQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_p8WO4CnlEeWzRdc7CztRZQ" type="4001" source="_p5r8dSnlEeWzRdc7CztRZQ" target="_p56l8CnlEeWzRdc7CztRZQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p8WO4SnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p8WO4inlEeWzRdc7CztRZQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_p8bHYCnlEeWzRdc7CztRZQ" type="4001" source="_p57NACnlEeWzRdc7CztRZQ" target="_p6GzMCnlEeWzRdc7CztRZQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p8bHYSnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p8bHYinlEeWzRdc7CztRZQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_p8fY0CnlEeWzRdc7CztRZQ" type="4001" source="_p6HaQCnlEeWzRdc7CztRZQ" target="_p6emoCnlEeWzRdc7CztRZQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p8fY0SnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p8fY0inlEeWzRdc7CztRZQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_p8kRUCnlEeWzRdc7CztRZQ" type="4001" source="_p6empSnlEeWzRdc7CztRZQ" target="_p6qM0CnlEeWzRdc7CztRZQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p8kRUSnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p8kRUinlEeWzRdc7CztRZQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_p8n7sCnlEeWzRdc7CztRZQ" type="4001" source="_p6qz4CnlEeWzRdc7CztRZQ" target="_p64PQCnlEeWzRdc7CztRZQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p8n7sSnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p8n7sinlEeWzRdc7CztRZQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_p8sNICnlEeWzRdc7CztRZQ" type="4001" source="_p64PRSnlEeWzRdc7CztRZQ" target="_p7EcgCnlEeWzRdc7CztRZQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p8sNISnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p8sNIinlEeWzRdc7CztRZQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_p8wekCnlEeWzRdc7CztRZQ" type="4001" source="_p7EchSnlEeWzRdc7CztRZQ" target="_p7PboCnlEeWzRdc7CztRZQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p8wekSnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p8wekinlEeWzRdc7CztRZQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_p80I8CnlEeWzRdc7CztRZQ" type="4001" source="_p7PbpSnlEeWzRdc7CztRZQ" target="_p7cP8CnlEeWzRdc7CztRZQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p80I8SnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.8/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p80I8inlEeWzRdc7CztRZQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_p84aYCnlEeWzRdc7CztRZQ" type="4001" source="_p7cP9SnlEeWzRdc7CztRZQ" target="_p7vx8CnlEeWzRdc7CztRZQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p84aYSnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.9/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p84aYinlEeWzRdc7CztRZQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_p88EwCnlEeWzRdc7CztRZQ" type="4001" source="_p7wZACnlEeWzRdc7CztRZQ" target="_p79NUCnlEeWzRdc7CztRZQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p88EwSnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.10/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p88EwinlEeWzRdc7CztRZQ" points="[1, 9, 0, 4]$[0, 0, -1, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_p-DfECnlEeWzRdc7CztRZQ" type="4001" source="_p6HaRSnlEeWzRdc7CztRZQ" target="_p6UOkCnlEeWzRdc7CztRZQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p-DfESnlEeWzRdc7CztRZQ" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_WeatherProxy.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@endpointOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p-DfEinlEeWzRdc7CztRZQ" points="[1, 9, -32, -209]$[32, 213, -1, -5]"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,2 @@
+https://localhost:9446 false admin /_system/governance
+https://localhost:9443 true admin /_system/local

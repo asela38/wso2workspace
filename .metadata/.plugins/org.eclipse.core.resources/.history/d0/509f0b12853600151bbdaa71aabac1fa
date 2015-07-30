@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_2jERoDaEEeWRUvaoISuBAA" type="Esb" name="endpoint_PlaceOrder1000PlusEndPoint.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_2kxh0DaEEeWRUvaoISuBAA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2kxh1TaEEeWRUvaoISuBAA" type="7001"/>
+    <children xmi:type="notation:Shape" xmi:id="_2nGdEDaEEeWRUvaoISuBAA" type="3642" fontName="Ubuntu">
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2nGdEjaEEeWRUvaoISuBAA" type="7041">
+        <children xmi:type="notation:Node" xmi:id="_2nNKwDaEEeWRUvaoISuBAA" type="3646">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2nNKxTaEEeWRUvaoISuBAA" type="5161"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_2nNKwTaEEeWRUvaoISuBAA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2nNKwjaEEeWRUvaoISuBAA" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_2nNKwzaEEeWRUvaoISuBAA"/>
+          <element xmi:type="esb:AddressEndPoint" href="endpoint_PlaceOrder1000PlusEndPoint.esb#//@server/@children.0/@child"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2nNKxDaEEeWRUvaoISuBAA" width="75" height="75"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2nGdEzaEEeWRUvaoISuBAA" showTitle="true"/>
+      </children>
+      <element xmi:type="esb:EndpointDiagram" href="endpoint_PlaceOrder1000PlusEndPoint.esb#//@server/@children.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2nGdETaEEeWRUvaoISuBAA" width="110" height="100"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_2kxh0TaEEeWRUvaoISuBAA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2kxh0jaEEeWRUvaoISuBAA" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_2kxh0zaEEeWRUvaoISuBAA"/>
+    <element xmi:type="esb:EsbServer" href="endpoint_PlaceOrder1000PlusEndPoint.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2kxh1DaEEeWRUvaoISuBAA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_2jERoTaEEeWRUvaoISuBAA"/>
+  <element xmi:type="esb:EsbDiagram" href="endpoint_PlaceOrder1000PlusEndPoint.esb#/"/>
+</notation:Diagram>

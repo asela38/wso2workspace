@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence xmlns="http://ws.apache.org/ns/synapse" name="placeOrder">
+    <payloadFactory media-type="xml">
+        <format>
+            <ser:placeOrder xmlns:ser="http://services.samples" xmlns:xsd="http://services.samples/xsd">
+                <ser:order>
+                    <xsd:price>$1</xsd:price>
+                    <xsd:quantity>$2</xsd:quantity>
+                    <xsd:symbol>$3</xsd:symbol>
+                </ser:order>
+            </ser:placeOrder>
+        </format>
+        <args>
+            <arg evaluator="xml" expression="//jsonObject/price"/>
+            <arg evaluator="xml" expression="//jsonObject/quantity"/>
+            <arg evaluator="xml" expression="get-property('uri.var.symbol')"/>
+        </args>
+    </payloadFactory>
+    <header name="Action" scope="default" value="ser:placeOrder"/>
+</sequence>

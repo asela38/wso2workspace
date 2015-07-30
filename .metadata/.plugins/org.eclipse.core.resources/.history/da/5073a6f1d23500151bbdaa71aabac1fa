@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="PlaceOrderProxy" transports="vfs" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence/>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+    <parameter name="transport.PollInterval">15</parameter>
+    <parameter name="transport.vfs.ActionAfterProcess">MOVE</parameter>
+    <parameter name="transport.vfs.FileURI">file:///home/wso2/vfs/in</parameter>
+    <parameter name="transport.vfs.MoveAfterProcess">file:///home/wso2/vfs/done</parameter>
+    <parameter name="transport.vfs.MoveAfterFailure">file:///home/wso2/vfs/fail</parameter>
+    <parameter name="transport.vfs.FileNamePattern">.*\.csv</parameter>
+    <parameter name="transport.vfs.ContentType">application/xml</parameter>
+</proxy>

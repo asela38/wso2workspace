@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="LoopProxy" groupId="com.example.MyESBConfig2.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/LoopProxy.xml</file>
+    </artifact>
+    <artifact name="GlobalInstanceProxy" groupId="com.example.MyESBConfig2.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/GlobalInstanceProxy.xml</file>
+    </artifact>
+</artifacts>

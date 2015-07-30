@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="PlaceOrderProxy" transports="vfs" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <smooks config-key="smooks-config">
+                <input type="text"/>
+                <output type="xml"/>
+            </smooks>
+            <log level="full"/>
+            <iterate expression="//orders/order">
+                <target>
+                    <sequence>
+                        <payloadFactory media-type="xml">
+                            <format>
+                                <ser:placeOrder xmlns:ser="http://services.samples" xmlns:xsd="http://services.samples/xsd">
+                                    <ser:order>
+                                        <xsd:price>$1</xsd:price>
+                                        <xsd:quantity>$2</xsd:quantity>
+                                        <xsd:symbol>$3</xsd:symbol>
+                                    </ser:order>
+                                </ser:placeOrder>
+                            </format>
+                            <args>
+                                <arg evaluator="xml" expression="/price"/>
+                                <arg evaluator="xml" expression="/quantity"/>
+                                <arg evaluator="xml" expression="/symbol"/>
+                            </args>
+                        </payloadFactory>
+                        <header name="Action" scope="default" value="ser:placeOrder"/>
+                        <log level="full"/>
+                    </sequence>
+                </target>
+            </iterate>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+    <parameter name="transport.PollInterval">15</parameter>
+    <parameter name="transport.vfs.ActionAfterProcess">MOVE</parameter>
+    <parameter name="transport.vfs.FileURI">file:///home/wso2/csv/in</parameter>
+    <parameter name="transport.vfs.MoveAfterProcess">file:///home/wso2/csv/done</parameter>
+    <parameter name="transport.vfs.MoveAfterFailure">file:///home/wso2/csv/fail</parameter>
+    <parameter name="transport.vfs.FileNamePattern">.*\.csv</parameter>
+    <parameter name="transport.vfs.ContentType">text/plain</parameter>
+</proxy>

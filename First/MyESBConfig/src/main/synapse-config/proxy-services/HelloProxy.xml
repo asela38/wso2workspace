@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="HelloProxy" transports="https http" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <log level="full"/>
+            <filter source="//name" regex="WSO2">
+                <then>
+                    <send description="">
+                        <endpoint>
+                            <address uri="http://localhost:9764/services/HelloService"/>
+                        </endpoint>
+                    </send>
+                </then>
+                <else>
+                    <makefault version="soap11">
+                        <code xmlns:soap11Env="http://schemas.xmlsoap.org/soap/envelope/" value="soap11Env:Client"/>
+                        <reason value="Bad request"/>
+                        <detail>Bad request, Expected name WSO2</detail>
+                    </makefault>
+                    <respond/>
+                </else>
+            </filter>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </target>
+    <publishWSDL uri="http://localhost:9764/services/HelloService?wsdl"/>
+</proxy>

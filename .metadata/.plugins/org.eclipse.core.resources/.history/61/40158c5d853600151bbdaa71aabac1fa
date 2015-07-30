@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="PlaceOrderProxy" groupId="com.example.PlaceOrderESBConfig.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/PlaceOrderProxy.xml</file>
+    </artifact>
+    <artifact name="PlaceHolderStore" groupId="com.example.PlaceOrderESBConfig.message-store" version="1.0.0" type="synapse/message-store" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/message-stores/PlaceHolderStore.xml</file>
+    </artifact>
+    <artifact name="smooks-config" groupId="com.example.PlaceOrderESBConfig.local-entry" version="1.0.0" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/smooks-config.xml</file>
+    </artifact>
+    <artifact name="PlaceOrderEndPoint" groupId="com.example.PlaceOrderESBConfig.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/PlaceOrderEndPoint.xml</file>
+    </artifact>
+    <artifact name="PlaceOrderMessageProcessor" groupId="com.example.PlaceOrderESBConfig.message-processors" version="1.0.0" type="synapse/message-processors" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/message-processors/PlaceOrderMessageProcessor.xml</file>
+    </artifact>
+    <artifact name="PlaceOrder1000PlusEndPoint" groupId="com.example.PlaceOrderESBConfig.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/PlaceOrder1000PlusEndPoint.xml</file>
+    </artifact>
+    <artifact name="adsf" groupId="com.example.PlaceOrderESBConfig.message-store" version="1.0.0" type="synapse/message-store" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/message-stores/adsf.xml</file>
+    </artifact>
+</artifacts>

@@ -1,0 +1,10 @@
+<proxy xmlns="http://ws.apache.org/ns/synapse"
+	name="ff" transports="https,http" statistics="disable" trace="disable"
+	startOnLoad="true">
+	<target endpoint="gov:branches/dev/endpoints/HelloWorld/HelloWorldServiceEP.xml">
+		<outSequence>
+			<send />
+		</outSequence>
+		
+	</target>
+</proxy>

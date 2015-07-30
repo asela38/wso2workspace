@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <item>
+        <file>HelloWorldServiceEP.xml</file>
+        <path>/_system/governance/branches/dev/endpoints/HelloWorld</path>
+        <mediaType>application/vnd.wso2.esb.endpoint</mediaType>
+    </item>
+</resources>

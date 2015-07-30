@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_gkZ6cCb4EeWYF4OybRcYzw" type="Esb" name="template_MyTemplate.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_gpufUCb4EeWYF4OybRcYzw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gpufVSb4EeWYF4OybRcYzw" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_7IUeACb4EeWYF4OybRcYzw" type="3664" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_7IUeAib4EeWYF4OybRcYzw" type="7043">
+          <children xmi:type="notation:Node" xmi:id="_7Imx4Cb4EeWYF4OybRcYzw" type="3665">
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_7Imx4Sb4EeWYF4OybRcYzw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_7Imx4ib4EeWYF4OybRcYzw" fontName="Ubuntu"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_7Imx4yb4EeWYF4OybRcYzw"/>
+            <element xmi:type="esb:Sequences" href="template_MyTemplate.esb#//@server/@children.0/@child"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Imx5Cb4EeWYF4OybRcYzw" width="195" height="125"/>
+          </children>
+        </children>
+        <element xmi:type="esb:Template" href="template_MyTemplate.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7IUeASb4EeWYF4OybRcYzw" width="30000" height="30000"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_gpufUSb4EeWYF4OybRcYzw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gpufUib4EeWYF4OybRcYzw" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_gpufUyb4EeWYF4OybRcYzw"/>
+    <element xmi:type="esb:EsbServer" href="template_MyTemplate.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gpufVCb4EeWYF4OybRcYzw"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_gkZ6cSb4EeWYF4OybRcYzw"/>
+  <element xmi:type="esb:EsbDiagram" href="template_MyTemplate.esb#/"/>
+</notation:Diagram>

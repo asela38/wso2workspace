@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="ATMLocatorProxy" transports="http https" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <log level="full" description=""/>
+            <payloadFactory media-type="xml">
+                <format>
+                    <hir:getZipCode xmlns:hir="http://hirollerbankws.training.wso2.com">
+                        <hir:lng>$1</hir:lng>
+                        <hir:lat>$2</hir:lat>
+                    </hir:getZipCode>
+                </format>
+                <args>
+                    <arg evaluator="xml" expression="//lng"/>
+                    <arg evaluator="xml" expression="//lat"/>
+                </args>
+            </payloadFactory>
+            <log level="full"/>
+            <header name="Action" scope="default" value="urn:getZipCode"/>
+            <log level="full"/>
+            <call>
+                <endpoint>
+                    <address uri="http://localhost:9764/services/GeoLocation" format="soap11"/>
+                </endpoint>
+            </call>
+            <payloadFactory media-type="xml">
+                <format>
+                    <hir:getLocation xmlns:hir="http://hirollerbankws.training.wso2.com">
+                        <hir:zipcode>$1</hir:zipcode>
+                    </hir:getLocation>
+                </format>
+                <args>
+                    <arg evaluator="xml" expression="//*[local-name()='return']"/>
+                </args>
+            </payloadFactory>
+            <header name="Action" scope="default" value="urn:getLocation"/>
+            <call>
+                <endpoint>
+                    <address uri="http://localhost:9764/services/ATMLocator" format="soap11"/>
+                </endpoint>
+            </call>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+</proxy>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_2PCG0CYnEeWnFtGLGOfUTQ" type="Esb" name="endpoint_LogServiceEndpoint.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_2Q3S0CYnEeWnFtGLGOfUTQ" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2Q354CYnEeWnFtGLGOfUTQ" type="7001"/>
+    <children xmi:type="notation:Shape" xmi:id="_skDkkCZOEeWnFtGLGOfUTQ" type="3642" fontName="Ubuntu">
+      <children xmi:type="notation:BasicCompartment" xmi:id="_skDkkiZOEeWnFtGLGOfUTQ" type="7041">
+        <children xmi:type="notation:Node" xmi:id="_skHO8CZOEeWnFtGLGOfUTQ" type="3646">
+          <children xmi:type="notation:DecorationNode" xmi:id="_skH2ACZOEeWnFtGLGOfUTQ" type="5161"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_skHO8SZOEeWnFtGLGOfUTQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_skHO8iZOEeWnFtGLGOfUTQ" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_skHO8yZOEeWnFtGLGOfUTQ"/>
+          <element xmi:type="esb:AddressEndPoint" href="endpoint_LogServiceEndpoint.esb#//@server/@children.0/@child"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_skHO9CZOEeWnFtGLGOfUTQ" width="75" height="75"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_skDkkyZOEeWnFtGLGOfUTQ" showTitle="true"/>
+      </children>
+      <element xmi:type="esb:EndpointDiagram" href="endpoint_LogServiceEndpoint.esb#//@server/@children.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_skDkkSZOEeWnFtGLGOfUTQ" width="110" height="100"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_2Q3S0SYnEeWnFtGLGOfUTQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2Q3S0iYnEeWnFtGLGOfUTQ" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_2Q3S0yYnEeWnFtGLGOfUTQ"/>
+    <element xmi:type="esb:EsbServer" href="endpoint_LogServiceEndpoint.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Q3S1CYnEeWnFtGLGOfUTQ"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_2PCG0SYnEeWnFtGLGOfUTQ"/>
+  <element xmi:type="esb:EsbDiagram" href="endpoint_LogServiceEndpoint.esb#/"/>
+</notation:Diagram>

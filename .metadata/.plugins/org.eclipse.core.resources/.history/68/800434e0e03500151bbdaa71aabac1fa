@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="PlaceOrderProxy" groupId="com.example.PlaceOrderESBConfig.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/PlaceOrderProxy.xml</file>
+    </artifact>
+    <artifact name="PlaceHolderStore" groupId="com.example.PlaceOrderESBConfig.message-store" version="1.0.0" type="synapse/message-store" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/message-stores/PlaceHolderStore.xml</file>
+    </artifact>
+    <artifact name="smooks-config" groupId="com.example.PlaceOrderESBConfig.local-entry" version="1.0.0" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/smooks-config.xml</file>
+    </artifact>
+    <artifact name="tes" groupId="com.example.PlaceOrderESBConfig.local-entry" version="1.0.0" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/tes.xml</file>
+    </artifact>
+</artifacts>
